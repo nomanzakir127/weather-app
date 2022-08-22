@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.navbar {
+  display: block !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #6f707d;
+  font-family: 'Marcellus', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#heading{
+  font-size: 55px;    
+  color: #2b304d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.temp{
+  place-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.temp-details > p >span, .grey{
+  color: #a3acc1;
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.temp-details1 > p >span, .grey{
+  color: #a3acc1;
+  font-size: 9px;
 }
+
+.fa{
+  color: #a5a5b1
+}
+
+*:focus{
+  outline: none;
+}
+
+.sliderArrows {
+  text-align: left;
+  padding: 10px 10px 0px;
+}
+
+.sliderArrows .slider-arrow {
+  font-size: 0;
+  border: none;
+  padding: 10px 0px;
+  margin-right: 30px;
+  width: 50px;
+}
+.sliderArrows .arrow-prev {
+  background: url(./assets/images/arrow-right.svg) no-repeat !important;
+}
+
+.sliderArrows .arrow-next {
+  background: url(./assets/images/arrow-left.svg) no-repeat !important;
+}
+
+.sliderArrows .arrow-prev:hover {
+  background: url(./assets/images/arrow-right-hover.svg) no-repeat !important;
+}
+
+.sliderArrows .arrow-next:hover {
+  background: url(./assets/images/arrow-left-hover.svg) no-repeat !important;
+}
+
